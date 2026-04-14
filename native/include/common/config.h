@@ -46,6 +46,6 @@ inline constexpr auto kLinkerPath = "/linker";
 const int kVersionCode = VERSION_CODE;
 
 /// The version name of the library, populated by the build system.
-const char *const kVersionName = VERSION_NAME;
+inline constexpr auto kVersionName = VERSION_NAME;
 
 }  // namespace vector::native
